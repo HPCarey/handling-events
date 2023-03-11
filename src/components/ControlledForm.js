@@ -18,8 +18,6 @@ export class ControlledForm extends Component {
   //   })
   // }
 
-  
-
   handleNameChange = (event) => {
     this.setState({
       name: event.target.value

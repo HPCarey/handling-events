@@ -10,7 +10,7 @@ export class SearchBar extends Component {
     }
   } 
   handleChange = (event) => {
-    const inputText = event.target.value.toLowerCase()
+    const inputText = event.target.value.toLowerCase();
     console.log(inputText)
     const filteredNames = importedNames.filter(name => {
         return name.toLocaleLowerCase().includes(inputText)
