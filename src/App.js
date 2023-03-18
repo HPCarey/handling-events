@@ -18,6 +18,7 @@ import UseStateWithArrays from "./components/UseStateWithArrays";
 import UseStateWithObjects from "./components/UseStateWithObjects";
 import UseEffectCounter from "./components/UseEffectCounter";
 import UseEffectCounterContainer from "./components/UseEffectCounterContainer";
+import HTTPRequest from "./components/HTTPRequest";
 
 function App() {
   return <div className="App">
@@ -39,7 +40,8 @@ function App() {
     {/* <UseStateWithArrays /> */}
     {/* <UseStateWithObjects /> */}
     {/* <UseEffectCounter /> */}
-    <UseEffectCounterContainer />
+    {/* <UseEffectCounterContainer /> */}
+    <HTTPRequest />
   </div>;
 }
 
